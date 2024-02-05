@@ -90,6 +90,10 @@
 
 }
 
+.social-text{
+    font-size: var(--smaller-font-size);
+}
+
 .home__title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
@@ -200,7 +204,10 @@
             height: 22px;
         }
 
-
+        .social-text{
+            font-size: var(--tiny-font-size);
+            transition: 1s ease-out;
+        }
 
         /*
         .home__hand{
@@ -240,7 +247,6 @@
     
     .home__content{
         grid-template-columns: 0.5fr 3fr;
-        padding-top: 1rem;
     }
 
     .home__img{
@@ -269,10 +275,6 @@
         --big-font-size: 2.5rem;
     }
 
-    .home__content{
-    
-        padding-top: .025rem;
-    }
 
     .container{
         margin-right: var(--mb-1);
