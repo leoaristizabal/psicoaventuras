@@ -3,7 +3,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Enfoques from './Components/Enfoques/Enfoques';
-import Services from './Components/Services/Services';
+import Testimonios from './Components/Testimonios/Testimonios';
 
 function App() {
 
@@ -15,6 +15,7 @@ function App() {
         <Home/>
         <About/>
         <Enfoques/>
+        <Testimonios/>
       </main>
     </>
   )

@@ -8,11 +8,11 @@
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .about__img:hover{
     transition: .1s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .about__info{
@@ -27,11 +27,12 @@
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .about__box:hover{
     transition: .1s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 
 .about__icon {
