@@ -21,7 +21,9 @@ const About = () => {
 
                 <p className="about__description">¡Hola! Soy Daniela Abuchaibe, psicólogo infantil y guía en las Psicoaventuras de tus hijos. Juntos, construimos puentes para el desarrollo emocional y cognitivo, creando experiencias únicas que marcan el camino hacia un crecimiento pleno. ¡Bienvenidos a Psicoaventuras, donde cada niño es protagonista de su propia historia de crecimiento!</p>
 
-                <a download="" href={CV} className="button button--flex">Descargar CV
+              {/**Boton de descarga del CV
+               * 
+               <a download="" href={CV} className="button button--flex">Descargar CV
                 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,6 +50,9 @@ const About = () => {
                 ></path>
               </svg>
                 </a>
+               * 
+               */}  
+               
             </div>
         </div>
 

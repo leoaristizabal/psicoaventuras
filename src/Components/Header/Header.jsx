@@ -24,31 +24,31 @@ const Header = () => {
                         <li className="nav__item">
                             <a href="#about" className="nav__link">
                                 <i className="uil uil-user nav__icon"></i>
-                                About
+                                Sobre Mi
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#skills" className="nav__link">
+                            <a href="#services" className="nav__link">
                                 <i className="uil uil-file-alt nav__icon"> </i>
-                                Skills
-                            </a>
-                        </li>
-                        <li className="nav__item">
-                            <a href="#servicios" className="nav__link">
-                                <i className="uil uil-briefcase-alt nav__icon"></i>
                                 Servicios
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#portfolio" className="nav__link">
+                            <a href="#home" className="nav__link">
                                 <i className="uil uil-scenery nav__icon"></i>
-                                Portfolio
+                                Citas
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#contact" className="nav__link">
                                 <i className="uil uil-message nav__icon" ></i>
-                                Contact
+                                Contacto
+                            </a>
+                        </li>
+                        <li className="nav__item">
+                            <a href="#home" className="nav__link">
+                                <i className="uil uil-briefcase-alt nav__icon"></i>
+                                Tienda
                             </a>
                         </li>
                     </ul>

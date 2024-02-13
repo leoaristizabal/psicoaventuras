@@ -2,8 +2,6 @@ import React from 'react';
 import Cognitivo from './Cognitivo';
 import Emocional from './Emocional';
 import "./enfoques.css";
-import Services from '../Services/Services';
-import Experiencia from '../Experiencia/Experiencia';
 
 const Enfoques = () => {
   return (
@@ -15,8 +13,6 @@ const Enfoques = () => {
           <Cognitivo/>
           <Emocional/>
         </div>
-        <Services/> {/**Renderizo Services aca para hacerlo una sola section en conjunto de Enfoques/skillshbailidades =/etc */}
-        <Experiencia/>
     </section>
   )
 }

@@ -28,8 +28,8 @@ const Experiencia = () => {
               onClick={()=> toggleTab(1)}
             > {/**logica de activacion */}
             
-            <i className="uil uil-graduation-cap experiencia-icon"></i>
-            Educacion
+            <i className="uil uil-graduation-cap experiencia__icon"></i>
+          Educacion
           </div>
 
           <div className={
@@ -40,7 +40,7 @@ const Experiencia = () => {
             onClick={()=> toggleTab(2)}
             >{/**logica de activacion */}
 
-            <i className="uil uil-briefcase-alt experiencia-icon"></i>
+            <i className="uil uil-briefcase-alt experiencia__icon"></i>
             Laboral
           </div>
         </div>
@@ -170,7 +170,7 @@ const Experiencia = () => {
                   Microsoft - Barinas
                 </span>
                 <div className="experiencia__calendar">
-                  <i className="uil uil-calendar-alt"></i>2019 - Presente {/****Hasta aqui bien****/}
+                  <i className="uil uil-calendar-alt"></i> 2019 - Presente {/****Hasta aqui bien****/}
                 </div>
               </div>
 

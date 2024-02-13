@@ -2,8 +2,11 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
-import Enfoques from './Components/Enfoques/Enfoques';
 import Testimonios from './Components/Testimonios/Testimonios';
+import Contact from './Components/Contact/Contact';
+import Services from './Components/Services/Services';
+import Experiencia from './Components/Experiencia/Experiencia';
+import Wabutton from './Components/WhatsappButton/wabutton';
 
 function App() {
 
@@ -14,9 +17,12 @@ function App() {
       <main className="main">
         <Home/>
         <About/>
-        <Enfoques/>
+        <Services/>
+        <Experiencia/>
         <Testimonios/>
+        <Contact/>
       </main>
+        <Wabutton/>
     </>
   )
 }
