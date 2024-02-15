@@ -1,13 +1,32 @@
-import React from "react";
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import './contact.css'
 
 const Contact = () => {
+  const form = useRef();
+  const [isMessageSent, setIsMessageSent] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_iqmc76a', 'template_2z4n7vk', form.current, {
+        publicKey: 'vgugjY2fzeQFg_FXH',
+      })
+
+      .then(()=> {
+        setIsMessageSent(true);
+        setTimeout(()=> setIsMessageSent(false), 3000); //reset dle mensaje despues de 5 segundos
+      })
+      .catch((error)=> console.error("Error al enviar el mensaje", error));
+      e.target.reset()
+  };
   return (
-    <section className="experiencia section" id="experiencia">
+    <section className="contact section" id="contact">
       <h2 className="section__title">Contactame</h2>
       <span className="section__subtitle"></span>
-
       <div className="contact__container container grid">
+
         <div className="contact__content">
           <h3 className="contact__title">Hablemos!</h3>
 
@@ -62,7 +81,8 @@ const Contact = () => {
         <div className="contact__content">
           <h3 className="contact__title">Cuentame tus dudas</h3>
 
-          <form className="contact__form">
+          <form ref={form} onSubmit={sendEmail} 
+          className="contact__form">
             <div className="contact__form-div">
               <label htmlFor="" className="contact__form-tag">
                 Nombre
@@ -121,6 +141,11 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      {isMessageSent && (
+          <div className="message__sent">
+            Mensaje enviado exitosamente. Gracias por contactarme.
+          </div>
+        )}
     </section>
   );
 };

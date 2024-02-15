@@ -107,6 +107,19 @@
     resize: none;
 }
 
+/*Ventana de confirmacion del mensaje*/
+.message__sent {
+    background-color: var(--container-color); /* Color de fondo */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Borde */
+    padding: 1rem; /* Espaciado interno */
+    border-radius: 0.75rem; /* Borde redondeado */
+    text-align: center; /* Alineación del texto al centro */
+    margin-top: 1rem; /* Margen superior */
+    font-size: var(--small-font-size); /* Tamaño de fuente */
+    color: var(--title-color); /* Color de texto */
+  }
+  
+
 /*BREAK POINTS*/
 
 /*For Large DEvices*/
