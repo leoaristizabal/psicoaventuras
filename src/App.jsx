@@ -8,6 +8,7 @@ import Services from './Components/Services/Services';
 import Experiencia from './Components/Experiencia/Experiencia';
 import Wabutton from './Components/WhatsappButton/wabutton';
 import Footer from './Components/Footer/Footer';
+import Scrollup from './Components/scrollup/Scrollup';
 
 function App() {
 
@@ -22,9 +23,10 @@ function App() {
         <Experiencia/>
         <Testimonios/>
         <Contact/>
-        <Footer/>
       </main>
+        <Footer/>
         <Wabutton/>
+        <Scrollup/>
     </>
   )
 }
