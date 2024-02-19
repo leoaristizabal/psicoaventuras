@@ -1,0 +1,6 @@
+/* Estilos responsivos para dispositivos pequeños */
+@media (max-width: 576px) {
+    .shopify-buy__product-image {
+        max-width: 50%; /* Reducir el ancho máximo de la imagen en dispositivos pequeños */
+    }
+}

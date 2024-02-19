@@ -31,7 +31,7 @@ const Social = () => {
     <div className="home__social">
       
       <a
-        href="www.instagram.com/psicoaventuras"
+        href="https://www.instagram.com/psicoaventuras/"
         className="home__social-icon"
         target="_blank"
         onMouseEnter={()=> handleMouseEnterIg(" Instagram")}
@@ -41,11 +41,11 @@ const Social = () => {
       <span className="social-text">{igText}</span>
       </a>
 
-      <a href="www.shopify.com" className="home__social-icon" target="_blank"
+      <a href="https://anad20dw6vduv7sn-69119410394.shopifypreview.com" className="home__social-icon" target="_blank"
       onMouseEnter={()=> handleMouseEnterTienda(" Tienda")}
       onMouseLeave={handleMouseLeaveTienda}
       >
-      <i class="uil uil-store"></i>
+      <i class="uil uil-shopping-cart-alt"></i>
       <span className="social-text">{tiendaText}</span>
       </a>
 

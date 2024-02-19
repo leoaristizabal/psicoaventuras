@@ -62,7 +62,7 @@ const Data = () => {
         los padres para mejorar su bienestar de manera única y personalizada.
       </p>
 
-      <a href="#contact" className="button button--flex">
+      <a href="https://anad20dw6vduv7sn-69119410394.shopifypreview.com" className="button button--flex">
         Agenda tu Cita
         <svg
           class="button__icon"

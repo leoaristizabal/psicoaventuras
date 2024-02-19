@@ -9,6 +9,7 @@ import Experiencia from './Components/Experiencia/Experiencia';
 import Wabutton from './Components/WhatsappButton/wabutton';
 import Footer from './Components/Footer/Footer';
 import Scrollup from './Components/scrollup/Scrollup';
+import BuyButton from './Components/BuyButton/Buybutton';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Services/>
         <Experiencia/>
         <Testimonios/>
+        <BuyButton/>
         <Contact/>
       </main>
         <Footer/>

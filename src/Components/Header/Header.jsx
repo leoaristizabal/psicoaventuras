@@ -62,9 +62,22 @@ const Header = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#home" className="nav__link">
-                <i className="uil uil-scenery nav__icon"></i>
+              <a href="#citas"onClick={() => setActiveNav("#citas")}
+                className={
+                  activeNav === "#citas" ? "nav__link active-link" : "nav__link"
+                }
+                >
+                <i className="uil uil-calendar-alt nav__icon"></i>
                 Citas
+              </a>
+            </li>
+            <li className="nav__item">
+              <a href="https://anad20dw6vduv7sn-69119410394.shopifypreview.com" onClick={() => setActiveNav("#tienda")}
+                className={
+                  activeNav === "#tienda" ? "nav__link active-link" : "nav__link"
+                }>
+                <i className="uil uil-shopping-cart-alt nav__icon"></i>
+                Tienda
               </a>
             </li>
             <li className="nav__item">
@@ -79,12 +92,7 @@ const Header = () => {
                 Contacto
               </a>
             </li>
-            <li className="nav__item">
-              <a href="#home" className="nav__link">
-                <i className="uil uil-briefcase-alt nav__icon"></i>
-                Tienda
-              </a>
-            </li>
+            
           </ul>
 
           <i
