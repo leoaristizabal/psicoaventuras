@@ -6,17 +6,17 @@ import Testimonios from './Components/Testimonios/Testimonios';
 import Contact from './Components/Contact/Contact';
 import Services from './Components/Services/Services';
 import Experiencia from './Components/Experiencia/Experiencia';
-import Wabutton from './Components/WhatsappButton/wabutton';
+import Wabutton from './Components/WhatsappButton/Wabutton';
 import Footer from './Components/Footer/Footer';
 
 function App() {
 
   return (
     <>
-      <Header/>
 
-      <main className="main">
+      <Header/>
         <Home />
+      <main className="main">
         <About/>
         <Services/>
         <Experiencia/>
