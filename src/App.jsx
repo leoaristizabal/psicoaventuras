@@ -9,7 +9,7 @@ import Experiencia from './Components/Experiencia/Experiencia';
 import Wabutton from './Components/WhatsappButton/Wabutton';
 import Footer from './Components/Footer/Footer';
 import Scrollup from './Components/scrollup/Scrollup';
-import BuyButton from './Components/BuyButton/Buybutton';
+import BuyButton from './Components/BuyButton/BuyButton';
 
 function App() {
 
