@@ -6,7 +6,7 @@ import Testimonios from './Components/Testimonios/Testimonios';
 import Contact from './Components/Contact/Contact';
 import Services from './Components/Services/Services';
 import Experiencia from './Components/Experiencia/Experiencia';
-import Wabutton from './Components/WhatsappButton/wabutton';
+import Wabutton from './Components/WhatsappButton/Wabutton';
 import Footer from './Components/Footer/Footer';
 import Scrollup from './Components/scrollup/Scrollup';
 import BuyButton from './Components/BuyButton/Buybutton';
