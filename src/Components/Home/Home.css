@@ -55,7 +55,7 @@ body {
     margin: auto;
     overflow: auto;
     background: linear-gradient(315deg,#f9eeb6 3%,#aad4e0 38%, #faae9f 98%, #d9debb 68%, #aad4e0 15%);
-    animation: gradient 5s ease infinite;
+    animation: gradient 10s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
     color: var(--text-color);
