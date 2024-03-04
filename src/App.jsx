@@ -8,6 +8,8 @@ import Services from './Components/Services/Services';
 import Experiencia from './Components/Experiencia/Experiencia';
 import Footer from './Components/Footer/Footer';
 import Wabutton from './Components/WhatsappButton/Wabutton';
+import Scrollup from './Components/Scrollup/Scrollup';
+import Buybutton from './Components/Buybutton/Buybutton';
 
 function App() {
 
@@ -21,12 +23,12 @@ function App() {
         <Services/>
         <Experiencia/>
         <Testimonios />
-        {/**<Buybutton/> */}
+        <Buybutton/>
         <Contact/>
       </main>
         <Footer/>
         <Wabutton/>
-        
+        <Scrollup/>
     </>
   )
 }
