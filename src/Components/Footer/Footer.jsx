@@ -19,7 +19,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#citas" className="footer__link">
+            <a href="#buybutton" className="footer__link">
               Citas
             </a>
           </li>
@@ -47,7 +47,7 @@ const Footer = () => {
           </a>
         </div>
         <span className="footer__copy">
-          &#169; 2024 LeoAristizabal. All rights reserved
+          &#169; 2024 <a href="https://github.com/leoaristizabal" className="footer__link">Leoaristizabal</a>. All rights reserved
         </span>
       </div>
     </footer>
