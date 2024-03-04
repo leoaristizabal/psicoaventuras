@@ -25,7 +25,7 @@ const Services = () => {
         <div className="services__content">
           <div>
             <i className="uil uil-edit services__icon"></i>
-            <h3 className="services__title">Evaluación & <br/>Diagnóstico <br/>  <br/></h3>
+            <h3 className="services__title">Evaluación <br/> & <br/>Diagnóstico <br/> </h3>
           </div>
 
           <span className="services__button" onClick={()=> setToggleState(1)}>

@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">
+        <a href="#home" className="nav__logo">
           Psicoaventuras
         </a>
 
@@ -55,7 +55,7 @@ const Header = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#buybutton"onClick={() => setActiveNav("#citas")}
+              <a href="#buybutton" onClick={() => setActiveNav("#citas")}
                 className={
                   activeNav === "#citas" ? "nav__link active-link" : "nav__link"
                 }
@@ -65,7 +65,7 @@ const Header = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="" onClick={() => setActiveNav("#tienda")}
+              <a href="https://anad20dw6vduv7sn-69119410394.shopifypreview.com/" onClick={() => setActiveNav("#tienda")}
                 className={
                   activeNav === "#tienda" ? "nav__link active-link" : "nav__link"
                 }>

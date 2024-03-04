@@ -19,7 +19,7 @@ const Social = () => {
       <i className="uil uil-shopping-cart-alt"></i>
       </a>
 
-      <a href="" className="home__social-icon" target="_blank"
+      <a href="#https://anad20dw6vduv7sn-69119410394.shopifypreview.com/" className="home__social-icon" target="_blank"
       >
       <i className="uil uil-calendar-alt"></i>
 

@@ -11,7 +11,7 @@ const Data = () => {
       <p className="home__description">Psicólogo especialista en evaluación, diagnóstico y estimulación infantil. Mi pasión es trabajar con niños y adolescentes de la mano de sus padres y maestros, para ayudarles a comprender y gestionar sus emociones, superar desafíos y potenciar sus habilidades, siempre centrada en las características únicas de cada niño.
       </p>
 
-      <a href="" className="button button--flex">
+      <a href="https://anad20dw6vduv7sn-69119410394.shopifypreview.com/" className="button button--flex">
         Agenda tu Cita
         <svg
           className="button__icon"

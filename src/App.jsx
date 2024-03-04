@@ -22,8 +22,8 @@ function App() {
         <About/>
         <Services/>
         <Experiencia/>
-        <Testimonios />
         <Buybutton/>
+        <Testimonios />
         <Contact/>
       </main>
         <Footer/>

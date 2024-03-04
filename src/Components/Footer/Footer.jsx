@@ -27,7 +27,7 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="www.instagram.com/psicoaventuras"
+            href="https://www.instagram.com/psicoaventuras/"
             className="footer__social-link"
             target="_blank"
           >
@@ -35,14 +35,14 @@ const Footer = () => {
           </a>
 
           <a
-            href="www.shopify.com"
+            href="https://wa.link/9ah2kw"
             className="footer__social-link"
             target="_blank"
           >
             <i class="uil uil-whatsapp"></i>
           </a>
 
-          <a href="" className="footer__social-link" target="_blank">
+          <a href="https://anad20dw6vduv7sn-69119410394.shopifypreview.com/" className="footer__social-link" target="_blank">
             <i class="uil uil-calendar-alt"></i>
           </a>
         </div>
