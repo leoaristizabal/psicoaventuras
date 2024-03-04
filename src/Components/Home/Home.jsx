@@ -3,6 +3,8 @@ import "./Home.css";
 import Social from "./Social";
 import Data from "./Data";
 import Wave from "./Wave";
+import Scrolldown from "./Scrolldown";
+
 
 const Home = () => {
   return (
@@ -14,6 +16,7 @@ const Home = () => {
           <div className="home__img"></div>
           <Data />
         </div>
+        <Scrolldown/>
       </div>
     </section>
   );
