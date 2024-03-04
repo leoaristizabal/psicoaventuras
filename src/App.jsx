@@ -6,8 +6,8 @@ import Testimonios from './Components/Testimonios/Testimonios';
 import Contact from './Components/Contact/Contact';
 import Services from './Components/Services/Services';
 import Experiencia from './Components/Experiencia/Experiencia';
-import WaButton from './Components/WhatsappButton/WaButton';
 import Footer from './Components/Footer/Footer';
+import WaButton from './Components/WhatsappButton/WaButton';
 
 function App() {
 
@@ -26,6 +26,7 @@ function App() {
       </main>
         <Footer/>
         <WaButton/>
+        
     </>
   )
 }
