@@ -6,7 +6,7 @@ import Testimonios from './Components/Testimonios/Testimonios';
 import Contact from './Components/Contact/Contact';
 import Services from './Components/Services/Services';
 import Experiencia from './Components/Experiencia/Experiencia';
-import Wabutton from './Components/WhatsappButton/Wabutton';
+import WaButton from './Components/WhatsappButton/WaButton';
 import Footer from './Components/Footer/Footer';
 import Scrollup from './Components/scrollup/Scrollup';
 import BuyButton from './Components/BuyButton/BuyButton';
@@ -27,7 +27,7 @@ function App() {
         <Contact/>
       </main>
         <Footer/>
-        <Wabutton/>
+        <WaButton/>
         <Scrollup/>
     </>
   )
