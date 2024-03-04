@@ -12,7 +12,7 @@ const Experiencia = () => {
   return (
     <section className="experiencia section" id="experiencia">
       <h2 className="section__title">Mi Experiencia </h2>
-      <span className="section__subtitle">Academica - Laboral</span>
+      <span className="section__subtitle">Académica - Laboral</span>
 
       <div className="experiencia__container container">
         <div className="experiencia__tabs">
@@ -27,7 +27,7 @@ const Experiencia = () => {
             {" "}
             {/**logica de activacion */}
             <i className="uil uil-graduation-cap experiencia__icon"></i>
-            Educacion
+            Educación
           </div>
 
           <div
@@ -64,7 +64,7 @@ const Experiencia = () => {
                   Principios de la Psicología Positiva
                 </h3>
                 <span className="experiencia__subtitle">
-                  Curso - DONDE? DONDE?
+                  Curso 
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2015
@@ -91,7 +91,7 @@ const Experiencia = () => {
                 <h3 className="experiencia__title">
                   Psicología positiva: bases para el bienestar
                 </h3>
-                <span className="experiencia__subtitle">DONDE? DONDE?</span>
+                <span className="experiencia__subtitle"></span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2015
                 </div>
@@ -106,7 +106,7 @@ const Experiencia = () => {
                 <h3 className="experiencia__title">
                   Licenciatura En Psicología Positiva
                 </h3>
-                <span className="experiencia__subtitle">DONDE? DONDE?</span>
+                <span className="experiencia__subtitle"></span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2016{" "}
                   {/****Hasta aqui bien****/}
@@ -134,7 +134,7 @@ const Experiencia = () => {
                   Taller Resilencia Familiar.
                 </h3>
                 <span className="experiencia__subtitle">
-                  Taller - DONDE? DONDE?
+                  Taller 
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2017
@@ -151,7 +151,7 @@ const Experiencia = () => {
                   ¿Como promover el desarrollo positivo del adolescente?
                 </h3>
                 <span className="experiencia__subtitle">
-                  Taller - DONDE? DONDE?
+                  Taller
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2017
@@ -179,7 +179,7 @@ const Experiencia = () => {
                   Bases biológicas del autismo
                 </h3>
                 <span className="experiencia__subtitle">
-                  Taller - DONDE? DONDE?
+                  Taller 
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2018
@@ -196,7 +196,7 @@ const Experiencia = () => {
                   Intervenciones centradas en la familia
                 </h3>
                 <span className="experiencia__subtitle">
-                  Curso - DONDE? DONDE?
+                  Curso 
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2019{" "}
@@ -225,7 +225,7 @@ const Experiencia = () => {
                   Estrategias de intervención en conductas problemáticas.
                 </h3>
                 <span className="experiencia__subtitle">
-                  Taller - DONDE? DONDE?
+                  Taller 
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2019
@@ -242,7 +242,7 @@ const Experiencia = () => {
                   Neurociencias para padres: una nueva mirada sobre el TDAH
                 </h3>
                 <span className="experiencia__subtitle">
-                  Curso? - DONDE? DONDE?
+                  Curso 
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2022
@@ -271,7 +271,7 @@ const Experiencia = () => {
                   efectivas.
                 </h3>
                 <span className="experiencia__subtitle">
-                  Taller - DONDE? DONDE?
+                  Taller 
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2022
@@ -286,7 +286,7 @@ const Experiencia = () => {
               <div>
                 <h3 className="experiencia__title">Curso de Ingles???</h3>
                 <span className="experiencia__subtitle">
-                  Curso - DONDE? DONDE?
+                  Curso 
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2022 - 2023{" "}
@@ -311,11 +311,10 @@ const Experiencia = () => {
 
               <div>
                 <h3 className="experiencia__title">
-                  {" "}
                   Neurodiversidad en entornos escolares.
                 </h3>
                 <span className="experiencia__subtitle">
-                  Taller?? - DONDE? DONDE?
+                  Taller 
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2023
@@ -332,7 +331,7 @@ const Experiencia = () => {
                   Neurodiversidad: un concepto que nos incluye a todos
                 </h3>
                 <span className="experiencia__subtitle">
-                  Taller - DONDE? DONDE?
+                  Taller 
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2023
@@ -362,9 +361,9 @@ const Experiencia = () => {
               {/* <div></div>  /****ERROR????****/}
 
               <div>
-                <h3 className="experiencia__title">Psicología 4to ano de bachillerato.</h3>
+                <h3 className="experiencia__title">Psicología 4to año de bachillerato.</h3>
                 <span className="experiencia__subtitle">
-                  Docente - DONDE???
+                  Docente
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2016
@@ -390,7 +389,6 @@ const Experiencia = () => {
               <div>
                 <h3 className="experiencia__title">Psicóloga del Dpto. de Psicología (Preescolar - Primaria)</h3>
                 <span className="experiencia__subtitle">
-                  DONDE DONDE??
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2017
@@ -405,7 +403,6 @@ const Experiencia = () => {
               <div>
                 <h3 className="experiencia__title">Asistencia y asesoramiento a padres en la primera infancia (Maternal)</h3>
                 <span className="experiencia__subtitle">
-                  DONDE??
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2017
@@ -431,7 +428,6 @@ const Experiencia = () => {
               <div>
                 <h3 className="experiencia__title">Plan vacacional de estimulación de áreas del desarrollo para niños entre 3 y 6 anos</h3>
                 <span className="experiencia__subtitle">
-                  DONDE??
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2017 - 2018
@@ -446,7 +442,6 @@ const Experiencia = () => {
               <div>
                 <h3 className="experiencia__title">Consultas y asesoramiento personalizado a niños, adolescentes y familias</h3>
                 <span className="experiencia__subtitle">
-                  DONDE???
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i>2018 - Presente
@@ -472,7 +467,7 @@ const Experiencia = () => {
               <div>
                 <h3 className="experiencia__title">Consultas y asesoramiento personalizado a maestros.</h3>
                 <span className="experiencia__subtitle">
-                  DONDE???
+                  
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i>2018 - Presente
@@ -487,7 +482,6 @@ const Experiencia = () => {
               <div>
                 <h3 className="experiencia__title">Escuela para padres (Mas de 20 talleres realizados)</h3>
                 <span className="experiencia__subtitle">
-                  DONDE???
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2019 - 2020
@@ -513,7 +507,6 @@ const Experiencia = () => {
               <div>
                 <h3 className="experiencia__title">Gestión de personal y área recursos humanos. Empresa de hostelería. Reino Unido</h3>
                 <span className="experiencia__subtitle">
-                  DONDE???
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2021 - 2023
@@ -528,7 +521,6 @@ const Experiencia = () => {
               <div>
                 <h3 className="experiencia__title">Gestión de talento, selección y reclutamiento de personal. Empresa de hostelería. Reino Unido</h3>
                 <span className="experiencia__subtitle">
-                  DONDE???
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2021 - 2023
@@ -553,7 +545,7 @@ const Experiencia = () => {
               <div>
                 <h3 className="experiencia__title">Dirección académica en LeRobotica – Venezuela</h3>
                 <span className="experiencia__subtitle">
-                  DONDE???
+                  
                 </span>
                 <div className="experiencia__calendar">
                   <i className="uil uil-calendar-alt"></i> 2024

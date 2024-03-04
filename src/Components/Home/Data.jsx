@@ -7,7 +7,7 @@ const Data = () => {
         Psicoaventuras
       
       </h1>
-      <h3 className="home__subtitle">Psicologo Infantil</h3>
+      <h3 className="home__subtitle">Psicólogo Infantil</h3>
       <p className="home__description">Psicólogo especialista en evaluación, diagnóstico y estimulación infantil. Mi pasión es trabajar con niños y adolescentes de la mano de sus padres y maestros, para ayudarles a comprender y gestionar sus emociones, superar desafíos y potenciar sus habilidades, siempre centrada en las características únicas de cada niño.
       </p>
 

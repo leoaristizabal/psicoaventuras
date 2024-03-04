@@ -23,12 +23,12 @@ const Contact = () => {
   };
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Contactame</h2>
+      <h2 className="section__title">Contáctame</h2>
       <span className="section__subtitle"></span>
       <div className="contact__container container grid">
 
         <div className="contact__content">
-          <h3 className="contact__title">Hablemos!</h3>
+          <h3 className="contact__title">¡Hablemos!</h3>
 
           <div className="contact__info">
             <div className="contact__card">
@@ -41,7 +41,7 @@ const Contact = () => {
                 href="mailto:psicoaventuras.vzla@gmail.com"
                 className="contact__button"
               >
-                Escribeme{" "}
+                Escríbeme{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>

@@ -1,13 +1,13 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/aboutDani2.jpg";
+import AboutImg from "../../assets/AboutDani1.4.svg";
 import Info from "./Info";
 
 const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">Sobre Mi</h2>
-      <span className="section__subtitle1">Hola! Mi nombre es Daniela Abuchaibe y me hace muy feliz que estes
+      <span className="section__subtitle1">¡Hola! Mi nombre es Daniela Abuchaibe y me hace muy feliz que estes
           aquí hoy y poder contarte un poco sobre mi y mi historia como
           psicóloga infanto – juvenil.</span>
 

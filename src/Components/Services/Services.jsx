@@ -13,7 +13,7 @@ const Services = () => {
 
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Areas de Atencion</h2>
+      <h2 className="section__title">Áreas de Atención</h2>
       <span className="section__subtitle">
         Descubre como puedo ayudarte en el camino
       </span>
@@ -25,11 +25,11 @@ const Services = () => {
         <div className="services__content">
           <div>
             <i className="uil uil-edit services__icon"></i>
-            <h3 className="services__title">Evaluacion & <br/>Diagnostico <br/>  <br/></h3>
+            <h3 className="services__title">Evaluación & <br/>Diagnóstico <br/>  <br/></h3>
           </div>
 
           <span className="services__button" onClick={()=> setToggleState(1)}>
-            Ver Mas
+            Ver Más
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
@@ -37,7 +37,7 @@ const Services = () => {
             <div className="services__modal-content">
               <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">Evaluacion y Diagnostico</h3>
+              <h3 className="services__modal-title">Evaluación y Diagnóstico</h3>
               <p className="services__modal-description">
               Observación y evaluación profunda y detallada de todas las áreas del desarrollo de niños y adolescentes. (socio – emocional, lenguaje y comunicación, cognitivo, comunicación y motricidad) Ideal para:
 
@@ -47,13 +47,13 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Diagnosticos Tempranos.
+                    Diagnósticos Tempranos.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Orientacion para padres.
+                    Orientación para padres.
                   </p>
                 </li>
                 <li className="services__modal-service">
@@ -73,11 +73,11 @@ const Services = () => {
         <div className="services__content">
           <div>
             <i className="uil uil-users-alt services__icon"></i>
-            <h3 className="services__title">Asesoramiento a<br/> Padres &<br/>Madres</h3>
+            <h3 className="services__title">Asesoramiento<br/> Padres &<br/>Madres</h3>
           </div>
 
           <span className="services__button" onClick={()=> setToggleState(2)}>
-            Ver Mas
+            Ver Más
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
@@ -95,7 +95,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Dinamicas familiares efectivas.
+                    Dinámicas familiares efectivas.
                   </p>
                 </li>
                 <li className="services__modal-service">
@@ -119,11 +119,11 @@ const Services = () => {
         <div className="services__content">
           <div>
           <i class="uil uil-band-aid services__icon"></i>
-            <h3 className="services__title">Intervencion en<br/> Terapias <br/> Personalizadas</h3>
+            <h3 className="services__title">Intervención<br/> Terapias <br/> Personalizadas</h3>
           </div>
 
           <span className="services__button" onClick={()=> setToggleState(3)}>
-            Ver Mas
+            Ver Más
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
@@ -131,7 +131,7 @@ const Services = () => {
             <div className="services__modal-content">
               <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">Intervención en terapia personalizada</h3>
+              <h3 className="services__modal-title">Intervención en terapiaa personalizadaa</h3>
               <p className="services__modal-description">
               Utilizando diferentes herramientas psicológicas y pedagógicas, y siendo el juego la base de nuestro método de aprendizaje, las terapias personalizadas ayudan a estimular el desarrollo de los niños y/o abordar temas infantiles como la ansiedad, dificultades escolares, conductas disruptivas, etc. Ideal para:
 
@@ -147,13 +147,13 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Trabajo personalizado con ninos con diagnostico de autismo, deficit de atencion e hiperactividad.
+                    Trabajo personalizado con niños con diagnóstico de autismo, déficit de atención e hiperactividad.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Estimulacion personalizada de areas de desarrollo.
+                    Estimulación personalizada de áreas de desarrollo.
                   </p>
                 </li>
               </ul>
@@ -169,7 +169,7 @@ const Services = () => {
           </div>
 
           <span className="services__button" onClick={()=> setToggleState(4)}>
-            Ver Mas
+            Ver Más
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
@@ -185,13 +185,13 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Aprender estrategias de crianza y eduacion efectivas.
+                  Aprender estrategias de crianza y eduación efectivas.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Promovar relaciones familiares y sociales sanas.
+                    Promover relaciones familiares y sociales sanas.
                   </p>
                 </li>
                 <li className="services__modal-service">
@@ -203,7 +203,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Tener un espacion donde compartir experiencias y preocupaciones.
+                    Tener un espacio donde compartir experiencias y preocupaciones.
                   </p>
                 </li>
               </ul>
