@@ -47,7 +47,7 @@ const Footer = () => {
           </a>
         </div>
         <span className="footer__copy">
-          &#169; 2024 <a href="https://github.com/leoaristizabal" className="footer__link">Leoaristizabal</a>. All rights reserved
+          &#169; 2024. Designed by <a href="https://github.com/leoaristizabal" className="footer__link">AvocoDesign</a>.
         </span>
       </div>
     </footer>

@@ -7,9 +7,10 @@ import Contact from './Components/Contact/Contact';
 import Services from './Components/Services/Services';
 import Experiencia from './Components/Experiencia/Experiencia';
 import Footer from './Components/Footer/Footer';
-import Wabutton from './Components/WhatsappButton/Wabutton';
+import AvatarWa from './assets/AboutDani1.4.svg'
 import Scrollup from './Components/Scrollup/Scrollup';
 import Buybutton from './Components/Buybutton/Buybutton';
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
         <Contact/>
       </main>
         <Footer/>
-        <Wabutton/>
+        <FloatingWhatsApp phoneNumber='584120426747' accountName='Psicoaventuras' avatar={AvatarWa} statusMessage='En Línea' placeholder='Mensaje' chatMessage='Hola! Gracias por escribir a Psicoaventuras, ¿Cómo puedo ayudarte?'/>
         <Scrollup/>
     </>
   )
