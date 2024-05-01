@@ -23,7 +23,6 @@ function App() {
         <About/>
         <Services/>
         <Experiencia/>
-        <Buybutton/>
         <Testimonios />
         <Contact/>
       </main>
