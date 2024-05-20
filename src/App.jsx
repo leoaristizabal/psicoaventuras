@@ -11,6 +11,7 @@ import AvatarWa from './assets/AboutDani1.4.svg'
 import Scrollup from './Components/Scrollup/Scrollup';
 import Buybutton from './Components/Buybutton/Buybutton';
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
+import Enfoques from './Components/Enfoques/Enfoques';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Home />
       <main className="main">
         <About/>
+        <Enfoques/>
         <Services/>
         <Experiencia/>
         <Testimonios />

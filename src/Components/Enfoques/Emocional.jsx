@@ -3,7 +3,6 @@ import React from 'react'
 const Emocional = () => {
   return (
     <div className="enfoques__content">
-      <h3 className="enfoques__title">Desarrollo Socioemocional</h3>
 
       <div className="enfoques__box">
 
@@ -13,7 +12,7 @@ const Emocional = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="enfoques__name">Emociones y Comunicacion</h3>
+              <h3 className="enfoques__name">No logras entender que pasa con tu hijo</h3>
               {/*<span className="enfoques__level"></span> EJEMPLO POR SI SE QUIERE AGREAGR ALGO ABAJO*/}
             </div>
           </div>
@@ -22,7 +21,7 @@ const Emocional = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="enfoques__name">Vinculos Afectivos</h3>
+              <h3 className="enfoques__name">Es muy activo en su entorno: pega, grita, muerde y empuja a otros compañeros</h3>
               
             </div>
           </div>
@@ -31,43 +30,27 @@ const Emocional = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="enfoques__name">Desarrollo Empatico</h3>
+              <h3 className="enfoques__name">No sigue instrucciones</h3>
+            </div>
+          </div>
+          <div className="enfoques__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="enfoques__name">Pierde el enfoque facilmente</h3>
+            </div>
+          </div>
+          <div className="enfoques__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="enfoques__name">Tiene problemas para comer y dormir</h3>
             </div>
           </div>
 
 
         </div>
         
-        <div className="enfoques__group">
-
-          <div className="enfoques__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="enfoques__name">Autoestima e Identidad</h3>
-            </div>
-          </div>
-
-
-          <div className="enfoques__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="enfoques__name">Resilencia Infantil</h3>
-            </div>
-          </div>
-
-          <div className="enfoques__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="enfoques__name">Autoconciencia</h3>
-              <span className="enfoques__level"></span>
-            </div>
-          </div>
-
-
-        </div>
         
       </div>
     </div>

@@ -1,3 +1,17 @@
+.enfoques__subtitle {
+    display: flex;
+    justify-content: center;
+    margin: var(--mb-2-5) 15rem;
+    text-align: justify;
+  }
+
+.description__subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
 .enfoques__container{
     grid-template-columns: repeat(2, 350px);
     column-gap: 3.25rem;
@@ -62,6 +76,13 @@
 /*For Large DEvices*/
 
 @media screen and (max-width: 992px) {
+
+
+    .enfoques__subtitle{
+        max-width: initial;
+        margin: var(--mb-1-5);
+      }
+
    .enfoques__container{
     grid-template-columns: max-content;
     row-gap: 2rem;

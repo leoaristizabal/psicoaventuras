@@ -1,17 +1,18 @@
 import React from 'react';
-import Cognitivo from './Cognitivo';
 import Emocional from './Emocional';
 import "./enfoques.css";
+import Description from './Description';
 
 const Enfoques = () => {
   return (
     <section className="enfoques section" id='enfoques'>
-        <h2 className="section__title">Enfoques </h2>
-        <span className="section__subtitle">Nivel Tecnico</span>
+        <h2 className="section__title">Asesorias Online(Prueba)</h2>
+        <p className="enfoques__subtitle"> La asesoría te brindará orientacion y apoyo integral para potenciar el desarrollo de tus hijos a través de herramientas, estrategias, ejercicios, y guías para utilizar en casa y en su rutina diaria.
+        </p>
 
         <div className="enfoques__container container grid">
-          <Cognitivo/>
           <Emocional/>
+          <Description/>
         </div>
     </section>
   )
