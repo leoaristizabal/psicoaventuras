@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     margin: var(--mb-2-5) 15rem;
-    text-align: justify;
+    text-align: center;
   }
 
 .description__subtitle{

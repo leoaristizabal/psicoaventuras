@@ -5,7 +5,7 @@ const Header = () => {
   
   //estado para abrir el toggle menu
   const [toggle, showMenu] = useState(false);
-  const [activeNav, setActiveNav] = useState("#home");
+  const [activeNav, setActiveNav] = useState("#enfoques");
 
   return (
     <header className="header">
