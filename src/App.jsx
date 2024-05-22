@@ -16,7 +16,6 @@ import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import AvatarWa from './assets/AboutDani1.4.svg';
 import { PopupWidget } from "react-calendly";
 
-
 const ScrollToSection = () => {
   const location = useLocation();
 
@@ -38,25 +37,22 @@ function App() {
       <ScrollToSection />
       <Header />
       <Routes>
-        <Route path="/#about" element={<About />} />
-        <Route path="/#enfoques" element={<Enfoques />} />
-        <Route path="/#services" element={<Services />} />
-        <Route path="/#experiencia" element={<Experiencia />} />
-        <Route path="/#testimonios" element={<Testimonios />} />
-        <Route path="/#contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/enfoques" element={<Enfoques />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/experiencia" element={<Experiencia />} />
+        <Route path="/testimonios" element={<Testimonios />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <main className="main">
-        <Home id="home" />
         <Enfoques id="enfoques" />
         <Services id="services" />
         <Experiencia id="experiencia" />
         <Testimonios id="testimonios" />
         <Contact id="contact" />
-        
       </main>
       <Footer />
-      
-      
       <FloatingWhatsApp
         phoneNumber='584120426747'
         accountName='Psicoaventuras'
