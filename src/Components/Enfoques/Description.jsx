@@ -4,11 +4,11 @@ const Description = () => {
   return (
     <div className="enfoques__content">
       
-        <h3 className="enfoques__title">¿Cómo puedo ayudarte con una asesoria?</h3>
+        <h3 className="enfoques__title">¿Cómo puedo ayudarte con una asesoría?</h3>
 
-        <p className="description__subtitle">Realizamos una sesión por videoconferencia para conocer el historial médico del niño, escuchar tus principales dudas y trazar una hoja de ruta para encontrar las soluciones que transformarán la conducta del niño.<br/><br/>
+        <p className="description__subtitle">Tendremos una sesión por videollamada para conocer a profundidad el historial médico del niño, escuchar tus dudas principales y trazar un camino a seguir para encontrar soluciones de acuerdo a la situación<br/><br/>
         
-        Basado en tus preocupaciones, llevamos a cabo un plan de acción con objetivos a cumplir a corto plazo con ejercicios a recomendar para hacer en casa
+        Basado en tus preocupaciones y lo conversado, detallaremos los objetivos a cumplir a corto plazo y te daré las recomendaciones específicas para aplicar en casa.
 
         </p>
 

@@ -54,7 +54,7 @@
 body {
     margin: auto;
     overflow: auto;
-    background: linear-gradient(315deg,#f9eeb6 3%,#aad4e0 38%, #faae9f 98%, #d9debb 68%, #aad4e0 15%);
+    background: linear-gradient(315deg,#f9eeb6 3%,#bdc0f7 38%, #faae9f 98%, #d9debb 68%, #aad4e0 15%);
     animation: gradient 10s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
@@ -66,12 +66,12 @@ body {
 /*home component*/
 
 .home__container {
-    row-gap: 7rem;
+    row-gap: 5rem;
 }
 
 .home__content {
     grid-template-columns: 116px repeat(2, 1fr);
-    padding-top: 5.5rem;
+    padding-top: .5rem;
     column-gap: 2rem;
     align-items: center;
 }
@@ -119,7 +119,7 @@ body {
 }
 
 .home__description {
-    max-width: 400px;
+    max-width: 440px;
     margin-bottom: var(--mb-3);
     text-align: justify;
 }
@@ -131,13 +131,28 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+    box-shadow: inset 0 0 0 9px var(--morado);
     order: 1;
     justify-self: center;
     width: 350px;
     height: 350px;
     animation: profile__animate 8s ease-in-out infinite 1s;
 }
+
+.button--flex1{
+    display: inline-flex;
+    align-items: center;
+    color: var(--title-color);
+    background-color: var(--morado);
+    border: solid 2px var(--morado);
+  }
+
+  .button--flex1:hover{
+    transition: .3s;
+    transform: scale(1.05);
+    background-color: var(--morado);
+    box-shadow: var(--morado) 0px 5px 15px;
+  }
 
 .home__scroll{
     margin-left: 9.2rem;
@@ -168,6 +183,7 @@ body {
 .home__scrool-arrow{
     font-size: 1.25rem;
     color: var(--title-color);
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1025px) {
@@ -208,7 +224,7 @@ body {
     .home__img {
         width: 250px;
         height: 250px;
-        box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+        box-shadow: inset 0 0 0 9px var(--morado);
     }
 
     .home__scroll {
@@ -236,7 +252,7 @@ body {
     }
 
     .home__img {
-        box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+        box-shadow: inset 0 0 0 9px var(--morado);
         width: 250px;
         height: 250px;
     }

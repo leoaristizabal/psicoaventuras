@@ -71,7 +71,7 @@
     display: inline-block;
     width: 13px;
     height: 13px;
-    background-color: var(--text-color);
+    background-color: var(--morado);
     border-radius: 50%;
 }
 
@@ -79,7 +79,7 @@
     display: block;
     width: 1px;
     height: 100%;
-    background-color: var(--text-color);
+    background-color: var(--morado);
     transform: translate(6px, -7px);
 }
 

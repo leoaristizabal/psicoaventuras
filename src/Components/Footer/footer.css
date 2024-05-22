@@ -9,7 +9,7 @@
 
 .footer__title,
 .footer__link{
-    color: var(--title-color);
+    color: var(--morado);
 }
 
 .footer__title{
@@ -35,7 +35,7 @@
 }
 
 .footer__social-link{
-    background-color: var(--title-color);
+    background-color: var(--morado);
     color: var(--container-color);
     font-size: 1.125rem;
     padding: 0.4rem 0.7rem;

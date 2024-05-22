@@ -7,12 +7,14 @@ const Emocional = () => {
       <div className="enfoques__box">
 
         <div className="enfoques__group">
+          
+        <h1 className="enfoques__title">Motivos para solicitar un asesoría</h1>
 
           <div className="enfoques__data">
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="enfoques__name">No logras entender que pasa con tu hijo</h3>
+              <p className="enfoques__name">Frecuentemente te llaman del colegio con quejas sobre tu hijo.</p>
               {/*<span className="enfoques__level"></span> EJEMPLO POR SI SE QUIERE AGREAGR ALGO ABAJO*/}
             </div>
           </div>
@@ -21,7 +23,7 @@ const Emocional = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="enfoques__name">Es muy activo en su entorno: pega, grita, muerde y empuja a otros compañeros</h3>
+              <p className="enfoques__name">No sigue instrucciones.</p>
               
             </div>
           </div>
@@ -30,21 +32,35 @@ const Emocional = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="enfoques__name">No sigue instrucciones</h3>
+              <p className="enfoques__name">Tiene problemas para dormir.</p>
             </div>
           </div>
           <div className="enfoques__data">
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="enfoques__name">Pierde el enfoque facilmente</h3>
+              <p className="enfoques__name">Le cuesta socializar con otros niños</p>
             </div>
           </div>
           <div className="enfoques__data">
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="enfoques__name">Tiene problemas para comer y dormir</h3>
+              <p className="enfoques__name">Es muy activo parece que nunca se cansa.</p>
+            </div>
+          </div>
+          <div className="enfoques__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <p className="enfoques__name">Cambios de humor repentinos y extremos.</p>
+            </div>
+          </div>
+          <div className="enfoques__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <p className="enfoques__name">Muestra comportamientos agresivos o desafiantes.</p>
             </div>
           </div>
 

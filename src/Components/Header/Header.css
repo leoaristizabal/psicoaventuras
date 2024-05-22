@@ -16,7 +16,7 @@
 }
 
 .nav__logo, .nav__toggle {
-    color: var(--title-color);
+    color: var(--morado);
     font-weight: var(--font-medium);
 }
 
@@ -35,6 +35,9 @@
     transition: .3s;
 }
 
+.nav__link:hover{
+    color: var(--morado);
+}
 
 .nav__icon,
 .nav__close,
@@ -45,8 +48,9 @@
 /*Active link*/
 
 .active-link,
-.nav-link:hover{
-    color: #faae9f;
+.nav__link:hover{
+    color: var(--morado);
+    transform: scale(1.1);
 }
 
 /*cambiar el fondo del header*/

@@ -29,7 +29,7 @@ const Scrolldown = () => {
                   style={{
 
                     fill: "none",
-                    stroke: "var(--title-color)",
+                    stroke: "var(--morado)",
                     strokeWidth: "20px",
                   
 
@@ -41,7 +41,7 @@ const Scrolldown = () => {
                   style={{
 
                       fill: "none",
-                      stroke: "var(--title-color)",
+                      stroke: "var(--morado)",
                       strokeWidth: "20px",
                     
 
