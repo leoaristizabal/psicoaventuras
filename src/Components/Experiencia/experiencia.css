@@ -12,7 +12,7 @@
 .experiencia__button{
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
-    color: var(--text-color);
+    color: var(--morado);
     margin: 0 var(--mb-1-5);
     cursor: pointer;
 }
@@ -61,10 +61,12 @@
     display: inline-block;
     font-size: var(--smaller-font-size);
     margin-bottom: var(--mb-1);
+    color: var(--morado);
 }
 
 .experiencia__calendar{
     font-size: var(--small-font-size);
+    color: var(--morado);
 }
 
 .experiencia__rounder{

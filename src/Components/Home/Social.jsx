@@ -45,11 +45,11 @@ const Social = () => {
       onMouseEnter={()=> handleMouseEnterTienda(" Tienda")}
       onMouseLeave={handleMouseLeaveTienda}
       >
-      <i class="uil uil-shopping-cart-alt"></i>
+      <i class="uil uil-shopping-cart-alt"></i> 
       <span className="social-text">{tiendaText}</span>
       </a>
 
-      <a href="" className="home__social-icon" target="_blank"
+      <a href="https://calendly.com/psicoaventuras-vzla/asesoria-online" className="home__social-icon" target="_blank"
       onMouseEnter={()=> handleMouseEnterCita(" Agendar Cita")}
       onMouseLeave={handleMouseLeaveCita}
       >

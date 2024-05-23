@@ -9,17 +9,17 @@ const Footer = () => {
 
         <ul className="footer__list">
           <li>
-            <a href="#about" className="footer__link">
+            <a href="/" className="footer__link">
               Sobre Mi
             </a>
           </li>
           <li>
-            <a href="#services" className="footer__link">
+            <a href="#enfoques" className="footer__link">
               Servicios
             </a>
           </li>
           <li>
-            <a href="#buybutton" className="footer__link">
+            <a href="https://calendly.com/psicoaventuras-vzla/asesoria-online" className="footer__link">
               Citas
             </a>
           </li>
@@ -42,7 +42,7 @@ const Footer = () => {
             <i class="uil uil-whatsapp"></i>
           </a>
 
-          <a href="https://anad20dw6vduv7sn-69119410394.shopifypreview.com/" className="footer__social-link" target="_blank">
+          <a href="https://calendly.com/psicoaventuras-vzla/asesoria-online" className="footer__social-link" target="_blank">
             <i class="uil uil-calendar-alt"></i>
           </a>
         </div>
