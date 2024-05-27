@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/AboutDani1.4.svg";
 import Info from "./Info";
 
 const About = () => {
@@ -12,7 +11,7 @@ const About = () => {
           psicóloga infanto – juvenil.</span>
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
+        <img src='' alt="" className="about__img" />
         <Info />
       </div>
 

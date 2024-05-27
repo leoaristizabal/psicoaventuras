@@ -61,19 +61,19 @@
     display: inline-block;
     font-size: var(--smaller-font-size);
     margin-bottom: var(--mb-1);
-    color: var(--morado);
+    color: var(--text-color);
 }
 
 .experiencia__calendar{
     font-size: var(--small-font-size);
-    color: var(--morado);
+    color: var(--text-color);
 }
 
 .experiencia__rounder{
     display: inline-block;
     width: 13px;
     height: 13px;
-    background-color: var(--morado);
+    background-color: var(--text-color);
     border-radius: 50%;
 }
 
@@ -81,7 +81,7 @@
     display: block;
     width: 1px;
     height: 100%;
-    background-color: var(--morado);
+    background-color: var(--text-color);
     transform: translate(6px, -7px);
 }
 
