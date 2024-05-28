@@ -14,7 +14,6 @@ import Scrollup from './Components/Scrollup/Scrollup';
 import Enfoques from './Components/Enfoques/Enfoques';
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import AvatarWa from './assets/AboutDani1.4.svg';
-import { PopupWidget } from "react-calendly";
 import { Helmet } from 'react-helmet';
 
 const ScrollToSection = () => {

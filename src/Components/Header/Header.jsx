@@ -1,11 +1,19 @@
-// Components/Header/Header.jsx
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
   const [toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      setActiveNav(location.hash);
+    } else {
+      setActiveNav("#home");
+    }
+  }, [location]);
 
   const handleNavClick = (hash) => {
     setActiveNav(hash);
@@ -19,7 +27,7 @@ const Header = () => {
           Psicoaventuras
         </Link>
 
-        <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>
+        <div className={toggle ? "nav__menu show-menu" : "nav__menu"} aria-expanded={toggle}>
           <ul className="nav__list grid">
             <li className="nav__item">
               <Link
@@ -38,10 +46,11 @@ const Header = () => {
                 onClick={() => handleNavClick("#enfoques")}
                 className={activeNav === "#enfoques" ? "nav__link active-link" : "nav__link"}
               >
-                <i className="uil uil-file-alt nav__icon"> </i>
-                Asesorias
+                <i className="uil uil-file-alt nav__icon"></i>
+                Asesorías
               </Link>
             </li>
+            
             <li className="nav__item">
               <Link
                 to="/#experiencia"
@@ -52,6 +61,7 @@ const Header = () => {
                 Mi Experiencia
               </Link>
             </li>
+            
             <li className="nav__item">
               <a
                 href="https://anad20dw6vduv7sn-69119410394.shopifypreview.com/"
@@ -62,6 +72,7 @@ const Header = () => {
                 Tienda
               </a>
             </li>
+            
             <li className="nav__item">
               <Link
                 to="/#contact"
@@ -74,15 +85,22 @@ const Header = () => {
             </li>
           </ul>
 
-          <i
-            className="uil uil-times nav__close"
+          <button
+            className="nav__close"
+            aria-label="Cerrar menú"
             onClick={() => showMenu(!toggle)}
-          ></i>
+          >
+            <i className="uil uil-times"></i>
+          </button>
         </div>
 
-        <div className="nav__toggle" onClick={() => showMenu(!toggle)}>
+        <button
+          className="nav__toggle"
+          aria-label="Abrir menú"
+          onClick={() => showMenu(!toggle)}
+        >
           <i className="uil uil-apps"></i>
-        </div>
+        </button>
       </nav>
     </header>
   );
