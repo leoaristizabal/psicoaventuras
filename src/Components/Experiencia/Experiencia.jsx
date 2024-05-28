@@ -279,17 +279,19 @@ const Experiencia = () => {
               </div>
             </div>
 
-            {/***********************Experiencia Data11 sin <div> (Educacion) (izquierda)******************/}
+            {/***********************Experiencia Data13 sin <div> (educacion - izquierda) ******************/}
             <div className="experiencia__data">
               {/* <div></div>  /****ERROR????****/}
 
               <div>
-                <h3 className="experiencia__title">Curso de Ingles???</h3>
+                <h3 className="experiencia__title">
+                  Neurodiversidad: un concepto que nos incluye a todos
+                </h3>
                 <span className="experiencia__subtitle">
-                  Curso 
+                  Taller 
                 </span>
                 <div className="experiencia__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - 2023{" "}
+                  <i className="uil uil-calendar-alt"></i> 2023
                   {/****Hasta aqui bien****/}
                 </div>
               </div>
@@ -322,28 +324,7 @@ const Experiencia = () => {
               </div>
             </div>
 
-            {/***********************Experiencia Data13 sin <div> (educacion - izquierda) ******************/}
-            <div className="experiencia__data">
-              {/* <div></div>  /****ERROR????****/}
-
-              <div>
-                <h3 className="experiencia__title">
-                  Neurodiversidad: un concepto que nos incluye a todos
-                </h3>
-                <span className="experiencia__subtitle">
-                  Taller 
-                </span>
-                <div className="experiencia__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023
-                  {/****Hasta aqui bien****/}
-                </div>
-              </div>
-
-              <div>
-                <span className="experiencia__rounder"></span>
-                <span className="experiencia__line"></span>
-              </div>
-            </div>
+            
           </div>
 
           {/***********************Experiencia Content 2 (LABORAL LABORALLLL) ******************/}

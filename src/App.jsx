@@ -15,6 +15,7 @@ import Enfoques from './Components/Enfoques/Enfoques';
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import AvatarWa from './assets/AboutDani1.4.svg';
 import { PopupWidget } from "react-calendly";
+import { Helmet } from 'react-helmet';
 
 const ScrollToSection = () => {
   const location = useLocation();
@@ -31,19 +32,75 @@ const ScrollToSection = () => {
   return null;
 };
 
-function App() {
+const App = () => {
   return (
     <Router>
       <ScrollToSection />
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/enfoques" element={<Enfoques />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/experiencia" element={<Experiencia />} />
-        <Route path="/testimonios" element={<Testimonios />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={
+          <>
+            <Helmet>
+              <title>Psicoaventuras | Psicólogo Infantil en Caracas</title>
+              <meta name="description" content="Soy Daniela Abuchaibe, psicóloga infantil con más de 8 años de experiencia en terapia presencial y en línea.Ayudamos a niños y adolescentes a superar sus desafíos emocionales acompañando a padres y maestros a abordar comportamientos desafiantes, mejorando la gestión emocional y conductual de los niños" />
+            </Helmet>
+            <Home />
+          </>
+        } />
+        <Route path="/about" element={
+          <>
+            <Helmet>
+              <title>Sobre Nosotros | Psicoaventuras</title>
+              <meta name="description" content="Conoce más sobre Psicoaventuras y nuestra experiencia en psicología infantil en Caracas y Online." />
+            </Helmet>
+            <About />
+          </>
+        } />
+        <Route path="/enfoques" element={
+          <>
+            <Helmet>
+              <title>Nuestros Enfoques | Psicoaventuras</title>
+              <meta name="description" content="Descubre los enfoques y métodos que utilizamos en Psicoaventuras para apoyar a niños y adolescentes." />
+            </Helmet>
+            <Enfoques />
+          </>
+        } />
+        <Route path="/services" element={
+          <>
+            <Helmet>
+              <title>Servicios | Psicoaventuras</title>
+              <meta name="description" content="Ofrecemos una variedad de servicios en Psicoaventuras para apoyar el desarrollo emocional y psicológico de niños y adolescentes." />
+            </Helmet>
+            <Services />
+          </>
+        } />
+        <Route path="/experiencia" element={
+          <>
+            <Helmet>
+              <title>Experiencia | Psicoaventuras</title>
+              <meta name="description" content="Conoce la experiencia y el recorrido profesional de Daniela Abuchaibe en Psicoaventuras." />
+            </Helmet>
+            <Experiencia />
+          </>
+        } />
+        <Route path="/testimonios" element={
+          <>
+            <Helmet>
+              <title>Testimonios | Psicoaventuras</title>
+              <meta name="description" content="Lee los testimonios de nuestros clientes y conoce cómo hemos ayudado a familias en línea." />
+            </Helmet>
+            <Testimonios />
+          </>
+        } />
+        <Route path="/contact" element={
+          <>
+            <Helmet>
+              <title>Contacto | Psicoaventuras</title>
+              <meta name="description" content="Ponte en contacto con Psicoaventuras para más información sobre nuestros servicios de psicología infantil." />
+            </Helmet>
+            <Contact />
+          </>
+        } />
       </Routes>
       <main className="main">
         <Enfoques id="enfoques" />
