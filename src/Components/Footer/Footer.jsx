@@ -47,7 +47,7 @@ const Footer = () => {
           </a>
         </div>
         <span className="footer__copy">
-          &#169; 2024. Designed by <a href="https://github.com/leoaristizabal" className="footer__link">AvocoDesign</a>.
+          &#169; 2024. Designed by <a href="https://avocodesign.vercel.app/" className="footer__link">AvocoDesign</a>.
         </span>
       </div>
     </footer>
