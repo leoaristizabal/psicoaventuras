@@ -15,6 +15,7 @@ import Enfoques from './Components/Enfoques/Enfoques';
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import AvatarWa from './assets/AboutDani1.4.svg';
 import { Helmet } from 'react-helmet';
+import NewsletterForm from './Components/NewsletterForm';
 
 const ScrollToSection = () => {
   const location = useLocation();
@@ -100,6 +101,16 @@ const App = () => {
             <Contact />
           </>
         } />
+      
+        <Route path="/newsletter" element={
+          <>
+            <Helmet>
+              <title>Newsletter | Psicoaventuras</title>
+              <meta name="description" content="Descarga nuestras guias gratuitas y suscribete a nuestro Newsletter con Psicoaventuras para más información sobre nuestros servicios de psicología infantil." />
+            </Helmet>
+            <NewsletterForm />
+          </>
+        } />
       </Routes>
       <main className="main">
         <Enfoques id="enfoques" />
@@ -107,6 +118,7 @@ const App = () => {
         <Experiencia id="experiencia" />
         <Testimonios id="testimonios" />
         <Contact id="contact" />
+        <NewsletterForm id="newsletter" />
       </main>
       <Footer />
       <FloatingWhatsApp
