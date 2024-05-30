@@ -116,9 +116,9 @@ const App = () => {
         <Enfoques id="enfoques" />
         <Services id="services" />
         <Experiencia id="experiencia" />
+        <NewsletterForm id="newsletter" />
         <Testimonios id="testimonios" />
         <Contact id="contact" />
-        <NewsletterForm id="newsletter" />
       </main>
       <Footer />
       <FloatingWhatsApp

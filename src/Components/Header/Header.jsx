@@ -63,14 +63,14 @@ const Header = () => {
             </li>
             
             <li className="nav__item">
-              <a
-                href="https://anad20dw6vduv7sn-69119410394.shopifypreview.com/"
-                onClick={() => handleNavClick("#tienda")}
-                className={activeNav === "#tienda" ? "nav__link active-link" : "nav__link"}
+              <Link
+                to="/#newsletter"
+                onClick={() => handleNavClick("#newsletter")}
+                className={activeNav === "#newsletter" ? "nav__link active-link" : "nav__link"}
               >
                 <i className="uil uil-shopping-cart-alt nav__icon"></i>
-                Tienda
-              </a>
+                Newsletter
+              </Link>
             </li>
             
             <li className="nav__item">
