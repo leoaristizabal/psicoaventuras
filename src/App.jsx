@@ -1,6 +1,5 @@
-// App.jsx
 import './App.css';
-import React, { useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
@@ -33,6 +32,32 @@ const ScrollToSection = () => {
 };
 
 const App = () => {
+  const [showPopup, setShowPopup] = useState(false);
+  const popupRef = useRef(null);
+
+  useEffect(() => {
+    // Mostrar el pop-up al cargar la página
+    setShowPopup(true);
+
+    const handleClickOutside = (event) => {
+      if (popupRef.current && !popupRef.current.contains(event.target)) {
+        setShowPopup(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('touchstart', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('touchstart', handleClickOutside);
+    };
+  }, []);
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
+
   return (
     <Router>
       <ScrollToSection />
@@ -130,6 +155,15 @@ const App = () => {
         chatMessage='Hola! Gracias por escribir a Psicoaventuras, ¿Cómo puedo ayudarte?'
       />
       <Scrollup />
+      
+      {showPopup && (
+        <div className="popup">
+          <div className="popup-inner" ref={popupRef}>
+            <button className="close-btn" onClick={handleClosePopup}><i className='bx bx-x-circle'></i></button>
+            <NewsletterForm />
+          </div>
+        </div>
+      )}
     </Router>
   );
 }

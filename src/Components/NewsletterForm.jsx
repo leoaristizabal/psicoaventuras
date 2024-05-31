@@ -35,10 +35,7 @@ const NewsletterForm = () => {
   }, []);
 
   return (
-    <section className='newsletter section' id="newsletter">
-      <h2 className="section__title">NewsLetter</h2>
-      <p className="enfoques__subtitle">Suscribete a nuestro Newsletter para recibir ofertas y guías gratis!
-        </p>
+      
       <div id="mc_embed_signup">
         <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" />
         <style type="text/css">
@@ -50,8 +47,6 @@ const NewsletterForm = () => {
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             max-width: 600px;
             margin: auto;
             width: 90%;
@@ -88,6 +83,11 @@ const NewsletterForm = () => {
             color: var(--morado);
           }
 
+          .text_newsletter{
+            font-size: var(--small-font-size);
+            text-align: center;
+          }
+
           .refferal_badge {
             width: 220px;
             height: 40px;
@@ -101,10 +101,11 @@ const NewsletterForm = () => {
         <form action="https://psicoaventuras.us17.list-manage.com/subscribe/post?u=9e8b07224a294d797532ea1b8&amp;id=f7514c6d27&amp;f_id=00c5e5e3f0"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
           <div id="mc_embed_signup_scroll">
-            <h2 className='title__newsletter'>Guía Pequeños Hábitos / Grandes Logros</h2>
+            <h2 className='title__newsletter'>Suscribete al Newsletter</h2>
+            <p className='text_newsletter'> Al suscribirte obtendras la guía de Rutinas Efectivas gratis!</p>
             <div className="indicates-required"><span className="asterisk">*</span> Campo Requerido</div>
             <div className="mc-field-group">
-              <label htmlFor="mce-EMAIL">Dirección de correo electrónico <span className="asterisk">*</span></label>
+              <label htmlFor="mce-EMAIL">Correo electrónico <span className="asterisk">*</span></label>
               <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" required />
             </div>
             <div className="mc-field-group">
@@ -144,7 +145,6 @@ const NewsletterForm = () => {
           </div>
         </form>
       </div>
-    </section>
   );
 };
 
