@@ -3,7 +3,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
-import About from './Components/About/About';
 import Testimonios from './Components/Testimonios/Testimonios';
 import Contact from './Components/Contact/Contact';
 import Services from './Components/Services/Services';
@@ -14,7 +13,8 @@ import Enfoques from './Components/Enfoques/Enfoques';
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import AvatarWa from './assets/AboutDani1.4.svg';
 import { Helmet } from 'react-helmet';
-import NewsletterForm from './Components/NewsletterForm';
+import NewsletterSection from './Components/Newsletter/NewsletterSection';
+import NewsletterForm from './Components/Newsletter/NewsletterForm';
 
 const ScrollToSection = () => {
   const location = useLocation();
@@ -72,15 +72,7 @@ const App = () => {
             <Home />
           </>
         } />
-        <Route path="/about" element={
-          <>
-            <Helmet>
-              <title>Sobre Nosotros | Psicoaventuras</title>
-              <meta name="description" content="Conoce más sobre Psicoaventuras y nuestra experiencia en psicología infantil en Caracas y Online." />
-            </Helmet>
-            <About />
-          </>
-        } />
+        
         <Route path="/enfoques" element={
           <>
             <Helmet>
@@ -133,7 +125,7 @@ const App = () => {
               <title>Newsletter | Psicoaventuras</title>
               <meta name="description" content="Descarga nuestras guias gratuitas y suscribete a nuestro Newsletter con Psicoaventuras para más información sobre nuestros servicios de psicología infantil." />
             </Helmet>
-            <NewsletterForm />
+            <NewsletterSection />
           </>
         } />
       </Routes>
@@ -141,7 +133,7 @@ const App = () => {
         <Enfoques id="enfoques" />
         <Services id="services" />
         <Experiencia id="experiencia" />
-        <NewsletterForm id="newsletter" />
+        <NewsletterSection id="newsletter" />
         <Testimonios id="testimonios" />
         <Contact id="contact" />
       </main>

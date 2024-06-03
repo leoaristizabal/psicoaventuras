@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import '../App.css';
+import '../../App.css';
 
 const NewsletterForm = () => {
   useEffect(() => {
@@ -101,7 +101,7 @@ const NewsletterForm = () => {
         <form action="https://psicoaventuras.us17.list-manage.com/subscribe/post?u=9e8b07224a294d797532ea1b8&amp;id=f7514c6d27&amp;f_id=00c5e5e3f0"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
           <div id="mc_embed_signup_scroll">
-            <h2 className='title__newsletter'>Suscribete al Newsletter</h2>
+            <h2 className='title__newsletter'>¡Suscribete a mi comunidad!</h2>
             <p className='text_newsletter'> Al suscribirte obtendras la guía de Rutinas Efectivas gratis!</p>
             <div className="indicates-required"><span className="asterisk">*</span> Campo Requerido</div>
             <div className="mc-field-group">

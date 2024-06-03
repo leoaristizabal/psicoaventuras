@@ -69,7 +69,7 @@ const Header = () => {
                 className={activeNav === "#newsletter" ? "nav__link active-link" : "nav__link"}
               >
                 <i className="uil uil-shopping-cart-alt nav__icon"></i>
-                Newsletter
+                Comunidad
               </Link>
             </li>
             
