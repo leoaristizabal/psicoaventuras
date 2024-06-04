@@ -68,7 +68,7 @@ const Header = () => {
                 onClick={() => handleNavClick("#newsletter")}
                 className={activeNav === "#newsletter" ? "nav__link active-link" : "nav__link"}
               >
-                <i className="uil uil-shopping-cart-alt nav__icon"></i>
+                <i className="uil uil-newspaper nav__icon"></i>
                 Comunidad
               </Link>
             </li>

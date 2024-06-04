@@ -41,7 +41,7 @@ const Social = () => {
       <span className="social-text">{igText}</span>
       </a>
 
-      <a href="https://anad20dw6vduv7sn-69119410394.shopifypreview.com" className="home__social-icon" target="_blank"
+      <a href="/" className="home__social-icon" target="_blank"
       onMouseEnter={()=> handleMouseEnterTienda(" Tienda")}
       onMouseLeave={handleMouseLeaveTienda}
       >
