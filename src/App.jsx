@@ -14,7 +14,6 @@ import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import AvatarWa from './assets/AboutDani1.4.svg';
 import { Helmet } from 'react-helmet';
 import NewsletterSection from './Components/Newsletter/NewsletterSection';
-import PopupForm from './Components/Newsletter/PopupForm';
 import NewsletterForm from './Components/Newsletter/NewsletterForm';
 
 const ScrollToSection = () => {
